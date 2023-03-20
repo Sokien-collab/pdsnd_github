@@ -7,7 +7,7 @@ Date of creation - January 2023
 Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+The bikeshare project allows users to interact with bikeshare data from Chicago, New York City and Washington
 
 ### Files used
 Files used - chicago.csv, new_york_city.csv, washington.csv
