@@ -51,7 +51,7 @@ def load_data(city, month, day):
     # Load data file into DataFrame
     data = pd.read_csv(CITY_DATA[city])
     
-    # Convert Start Time to datetime format, and extract, day of week and hour from from Start Time, to be able to get popular times of travel
+    # Convert Start Time to datetime format, extract day of week and hour from from Start Time, for popular travel times
     data['month']= pd.to_datetime(data["Start Time"]).dt.month
     data['day of week']= pd.to_datetime(data["Start Time"]).dt.day_name()
     data['hour']= pd.to_datetime(data["Start Time"]).dt.hour
